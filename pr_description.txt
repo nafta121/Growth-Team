@@ -1,3 +1,0 @@
-🎯 **What:** The testing gap addressed for ProfilePage component. Added vitest setup and a test script in package.json to easily run tests.
-📊 **Coverage:** Covered rendering of profile elements, such as heading, title, subtitle, backlink and avatar initials.
-✨ **Result:** Test coverage improved for the Profil Page component.
