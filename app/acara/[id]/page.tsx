@@ -7,6 +7,8 @@ const rundown: [string, string, string, boolean?][] = [
   ["10.00", "Istirahat", "Snack, minum, dan persiapan sesi berikutnya"],
 ];
 
+export const runtime = "edge";
+
 export default async function EventDetail({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   return <main className="detail-page">
