@@ -1,3 +1,4 @@
+import Link from "next/link";
 const rundown: [string, string, string, boolean?][] = [
   ["06.30", "Persiapan fasilitator", "Koordinasi alat, safety check, dan pembagian peran"],
   ["07.00", "Registrasi peserta", "Penyambutan peserta dan pembagian kelompok"],
@@ -8,7 +9,7 @@ const rundown: [string, string, string, boolean?][] = [
 
 export default function EventDetail() {
   return <main className="detail-page">
-    <header className="detail-header"><a href="/" aria-label="Kembali ke daftar acara">‹</a><span>Detail acara</span><button aria-label="Bagikan acara">⋯</button></header>
+    <header className="detail-header"><Link href="/" aria-label="Kembali ke daftar acara">‹</Link><span>Detail acara</span><button aria-label="Bagikan acara">⋯</button></header>
     <section className="event-cover"><p>12 JUNI 2026</p><h1>Outbound<br />Leadership</h1><span>PT Maju Bersama</span></section>
     <section className="detail-content">
       <div className="quick-info"><div><b>◷</b><span>Mulai<br /><strong>07.00 WIB</strong></span></div><div><b>⌖</b><span>Lokasi<br /><strong>Taman Rekreasi Umbul</strong></span></div></div>
