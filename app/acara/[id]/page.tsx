@@ -17,3 +17,5 @@ export default function EventDetail() {
     </section>
   </main>;
 }
+
+export const runtime = 'edge';

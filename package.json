@@ -10,11 +10,12 @@
     "test": "jest"
   },
   "dependencies": {
-    "next": "15.5.25",
+    "next": "^15.5.2",
     "react": "19.1.1",
     "react-dom": "19.1.1"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.16",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
