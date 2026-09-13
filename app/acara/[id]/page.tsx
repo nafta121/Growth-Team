@@ -7,7 +7,8 @@ const rundown: [string, string, string, boolean?][] = [
   ["10.00", "Istirahat", "Snack, minum, dan persiapan sesi berikutnya"],
 ];
 
-export default function EventDetail() {
+export default async function EventDetail({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   return <main className="detail-page">
     <header className="detail-header"><Link href="/" aria-label="Kembali ke daftar acara">‹</Link><span>Detail acara</span><button aria-label="Bagikan acara">⋯</button></header>
     <section className="event-cover"><p>12 JUNI 2026</p><h1>Outbound<br />Leadership</h1><span>PT Maju Bersama</span></section>
