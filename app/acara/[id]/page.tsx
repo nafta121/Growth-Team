@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 const rundown: [string, string, string, boolean?][] = [
   ["06.30", "Persiapan fasilitator", "Koordinasi alat, safety check, dan pembagian peran"],
   ["07.00", "Registrasi peserta", "Penyambutan peserta dan pembagian kelompok"],
